@@ -11,6 +11,7 @@ minetest.register_biome({
 	depth_riverbed = 10,
 	y_max = 31000,
 	y_min = 4,
+        node_dungeon = "tmt_nodes:wood",
 	heat_point = 50,
 	humidity_point = 50
 })
@@ -23,6 +24,7 @@ minetest.register_biome({
 	depth_riverbed = 10,
 	y_max = 3,
 	y_min = -100,
+        node_dungeon = "tmt_nodes:wood",
 	heat_point = 50,
 	humidity_point = 50
 })
